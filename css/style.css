@@ -1,0 +1,54 @@
+.container-fluid main{
+    align-content: stretch;
+    align-items: stretch;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    min-height: 100vh;
+   
+}
+img.main{
+width: 100%;
+}
+
+.intro{
+    position:absolute;
+    height: 100px;  
+    width: 80%;
+    left: 120px;
+    top: 350px;
+
+}
+
+@media screen and (max-width: 900px) {
+    .intro{
+        position:static;
+    
+    
+    }
+    }
+
+.playerbox{
+   position: absolute;
+   height: 100px;  
+   width: 80%;
+   left: 120px;
+   top: 700px;
+}
+.places-section{
+    margin-top: 10em;
+   
+}
+.places-image{
+    float: right;
+    
+}
+a{
+    text-decoration: none;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
